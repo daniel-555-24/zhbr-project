@@ -25,15 +25,16 @@ body{
     top: 20%;
 }
 
+.back-to-page_text{
+    font-family: "Henderson Sans Basic Regular";
+    font-size: 17px;
+}
+
 .get-in-touch_title h2{
     font-family: "Henderson Sans Basic Regular";
     font-size: 52px;
 
 }
-
-textarea {
-    height: 254px;
-  }
 
 .get-in-touch_title h2::before{
     content: "";
@@ -55,6 +56,62 @@ textarea {
     top: 60px;
 
 }
+
+textarea {
+    height: 254px;
+  }
+
+.form-control {
+    border-radius: unset;
+    
+}
+
+.btn{
+    background-color: #F1732A;
+    width: 40%;
+    position: absolute;
+    right:    0;
+}
+
+.btn-back{
+    background-color: #F1732A;
+    width: 184px;
+    height: 184px;
+    right: 0;
+    position: absolute;
+    bottom: 15px;
+    font-size: 20px;
+    color: white;
+    text-decoration: wavy;
+}
+
+.back-to-page_box{
+    position: absolute;
+    right:   0;
+}
+
+.back-to-page_text::before{
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    background-color: #06ABB9;
+    left: -184px;
+    top: -41px;
+}
+
+.back-to-page_text::after{
+        content: "";
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        background-color: #F1732A;
+        left: -153px;
+        top: -71px;
+    
+}
+
+
 
 
 .main-top_title::before{
