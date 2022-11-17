@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Henderson Sans Basic Regular';
+    src: url("../font/henderson_sans/Henderson_Sans_Basic_Regular.woff") format("woff"), url("../font/henderson_sans/Henderson_Sans_Basic_Regular.woff") format("woff");
+    font-weight: 500;
+    font-style: normal; }
+
+
+body{
+    background-color: black;
+}
+
+.main-top_title{
+    position: relative;
+    color: white;
+    font-size: 86px;
+    display: inline-block;
+
+}
+
+.form_wrapper{
+    position: relative;
+    padding-top: 189px;
+    width: 80%;
+    padding-left: 0%;
+    top: 20%;
+}
+
+.get-in-touch_title h2{
+    font-family: "Henderson Sans Basic Regular";
+    font-size: 52px;
+
+}
+
+textarea {
+    height: 254px;
+  }
+
+.get-in-touch_title h2::before{
+    content: "";
+    position:absolute;
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+    left: -165px;
+    top: -5px;
+}
+
+.get-in-touch_title h2::after{
+    content: "";
+    position:absolute;
+    width: 64px;
+    height: 64px;
+    background-color: #F1732A;
+    left: -100px;
+    top: 60px;
+
+}
+
+
+.main-top_title::before{
+    content: "";
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    background-color: #06ABB9;
+    left: -40px;
+    top: -40px;
+}
+
+.main-top_title::after{
+    content: "";
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    background-color: #fff;
+    left: -80px;
+    top: 0px;
+}
+
+h2{
+    position: relative;
+    bottom: 0;
+    top: 0;
+    color: #fff;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container-fluid {
+    padding: 0px 0px 0px 0px;
+ }
+
+.navbar{
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-brand{
+    position: relative;
+    padding: 0px;
+}
+
+.nav-item{
+    padding: 20px;
+}
+
+
+.navbar-nav{
+ padding-right: 30px;
+}
+
+.nav-link{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.navbar-brand img{
+    width: 80%;
+    justify-content: left;
+    padding: 0px;
+}
+
+.section_1{
+    background-image:url("../images/bg-header.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.section_2{
+    background-image:url("../images/home_section2.png");
+    background-repeat:no-repeat;
+    background-color: #C5C5C5;
+    position: relative;
+    background-size:auto;
+    width: 70%;
+    height:50%;
+}
+.section_3{
+background-color: black;
+    height: 340px;
+    position: relative;
+}
+
+.titleline{
+    margin-top: 0px;
+    font-size: 86px;
+}
+
+/* footer */
+
+.footer {
+    height:10vh; 
+    width: 100%; 
+    background-color: black;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: -15pt;
+    left: 0pt;
+}
+
+.footer-get-in_touch{
+    background-color: #06ABB9;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    height: 110px;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer_contents {
+    font-size: 11px;
+    left: 0;
+    font-family: "Henderson Sans Basic Regular";
+}
+
+.footer-link{
+    font-size: 10px;
+    color: white;
+}
+
+.footer-item{
+    padding: 0px;
+}
+
+.footer-item .footer-logo{
+    padding: 10px;
+    font-size: 26px;
+    margin-top: -10px;
+}
+
+.footer-item .footer-logo img{
+    width: 50%;
+    margin-top: -20px;
+}
+
+
+
+
+
