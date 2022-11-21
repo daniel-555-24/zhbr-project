@@ -228,8 +228,26 @@ p{
     height: 266px;
     width: 266px;
     background-color: #06ABB9;
-    left: 80%;
+    left: 73.69%;
     align-self: flex-end;
+}
+
+.section_2 .box2{
+    position: absolute;
+    height: 162px;
+    width: 162px;
+    background-color: #F1732A;
+    left: 0;
+    align-self: flex-end;
+}
+.section_2 .box2::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #06ABB9;
+    left: 100%;
+    top: -100px;
 }
 .section_2 .box:after {
     content: "";
